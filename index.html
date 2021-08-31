@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./Pictures/logo.png" />
+    <title>CountDown Timer</title>
+  </head>
+  <body>
+    <h1>Countdown to:</h1>
+    <h2 class="significance"></h2>
+    <div class="date-container">
+      <div class="date-flex">
+        <label class="label" for="date-significance"><p>What does this date signify?</p>(eg. New Year, Birthday)</label>
+        <input type="text" id="date-significance">
+      </div>
+      <div class="date-flex">
+        <label class="label" for="date-input">Input Date?</label>
+        <input type="date" id="date-input">
+      </div>
+    </div>
+
+    <div class="countdown-container">
+      <div class="bigCont">
+        <div class="cDays cdCalendar">
+          <p class="bigText" id="days">0</p>
+          <span class="days-tag">Days</span>
+        </div>
+
+        <div class="cHOurs cdCalendar">
+          <p class="bigText" id="hours">0</p>
+          <span class="hours-tag">Hours</span>
+        </div>
+
+        <div class="cMinutes cdCalendar">
+          <p class="bigText" id="minutes">0</p>
+          <span class="minutes-tag">Minutes</span>
+        </div>
+
+        <div class="cSeconds cdCalendar">
+          <p class="bigText" id="seconds">0</p>
+          <span class="seconds-tag">Seconds</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>Created by Yomi Olalude</footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
