@@ -24,7 +24,6 @@ function countDown() {
   let significance = document.querySelector(".significance")
   let dateSignificance = document.querySelector("#date-significance")
  
-
   getDays.innerHTML = formatTime(days);
   getHours.innerHTML = formatTime(hours);
   getMinutes.innerHTML = formatTime(minutes);
@@ -70,8 +69,6 @@ function countDown() {
   }
  
 }
-
-
 
 countDown();
 
